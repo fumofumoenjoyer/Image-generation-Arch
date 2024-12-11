@@ -1,10 +1,12 @@
 # Image-generation-Arch
 Pytorch and huggingface setup for archlinux
 
+# Install Dependencies
+AUR helper needed
 Note Replace python-pytorch-cuda with whatever GPU you work with
 
 ```
-yay -S python-huggingface-hub python-accelerate python-transformers python-diffusers python-pytorch-cuda
+yay -S python python-huggingface-hub python-accelerate python-transformers python-diffusers python-pytorch-cuda
 ```
 
 
